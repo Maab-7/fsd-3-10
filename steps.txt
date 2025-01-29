@@ -1,0 +1,14 @@
+1.- Create the directory
+2.- Inicializa el proyecto node 
+    npm init -y
+3.- Asegurate que express este instalado, sino lo instalas
+    npm install express
+4.- Modifica el package.json
+    ...
+     "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+5.- Si no tienes nodemon instalado, lo instalas
+    npm install -g nodemon
+6.- Crear el archivo index.js
+7.- 
