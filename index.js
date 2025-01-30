@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3001
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(express.static('dist'))
 //app.use(morgan("tiny"));
 
 //Defining a custom token for morgan to log request body for POST request
